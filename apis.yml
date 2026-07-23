@@ -1,8 +1,24 @@
 aid: ballet
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ballet.png
 name: Ballet
-description: 'Ballet is a company surfaced as a portfolio company of ribbit-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Ballet is a consumer cryptocurrency cold-storage company founded by Bobby Lee that
+  makes physical, non-electronic wallet cards based on the BIP38 open-source standard, letting
+  people store Bitcoin, Ethereum, XRP and 1,000+ coins and NFTs safe from electronic hacking and
+  preventable user error. The physical REAL Series card holds the keys; a companion mobile app,
+  Ballet Crypto, lets holders check balances and market value and add assets. Backed by Ribbit
+  Capital, Ballet is a hardware/consumer product rather than a developer platform, so it publishes
+  no public API — this profile captures its identity, security posture, and open-source footprint.'
 url: https://raw.githubusercontent.com/api-evangelist/ballet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Crypto
+- Cryptocurrency
+- Wallet
+- Cold Storage
+- Bitcoin
+- Hardware Wallet
+- Self-Custody
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ballet-domain-security.yml
 - type: Website
   url: https://www.ballet.com
+- type: GitHubOrganization
+  url: https://github.com/balletcrypto
+- type: Blog
+  url: https://medium.com/@BalletCrypto
+- type: TermsOfService
+  url: https://www.ballet.com/terms/
+- type: PrivacyPolicy
+  url: https://www.ballet.com/privacy/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
