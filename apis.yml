@@ -31,6 +31,9 @@ description: 'Ballet is a consumer cryptocurrency cold-storage company founded b
   Capital, Ballet is a hardware/consumer product rather than a developer platform, so it publishes
   no public API — this profile captures its identity, security posture, and open-source footprint.'
 url: https://raw.githubusercontent.com/api-evangelist/ballet/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "Backed by Ribbit Capital, Ballet is a hardware/consumer product rather than a developer platform, so it publishes no public API — this profile captures its identity, security posture, and open-source "
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
